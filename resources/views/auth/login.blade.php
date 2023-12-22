@@ -66,6 +66,10 @@
               <div class="btn-layer"></div>
               <button type="submit">{{ __('Login') }}</button>
             </div>
+            <div class="field btn">
+              <div class="btn-layer"></div>
+                <a href="{{ route('login.google') }}">u</a>
+            </div>
             <div class="signup-link">
               Buat akun
               <a href="">Daftar sekarang</a>
